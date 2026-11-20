@@ -1,1 +1,16 @@
-{"name":"घरहिशोब · HomeLedger","short_name":"घरहिशोब","start_url":"./index.html","display":"standalone","background_color":"#f4f6f2","theme_color":"#183a32","description":"घराचा मासिक खर्च व्यवस्थापक","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "घरहिशोब – HomeLedger",
+  "short_name": "HomeLedger",
+  "description": "घरगुती खर्च व्यवस्थापन, मासिक बजेट आणि रिपोर्ट",
+  "lang": "mr-IN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6f2",
+  "theme_color": "#183a32",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

@@ -1,0 +1,13 @@
+HOMELEDGER PWA - DEPLOYMENT
+
+This ZIP is arranged with index.html, manifest.json, sw.js and icons at the site root.
+
+Deploy:
+1. Extract this ZIP.
+2. Sign in to your Netlify account.
+3. Open https://app.netlify.com/drop in Chrome.
+4. Upload/drag the extracted folder (the folder containing index.html directly).
+5. Wait for Netlify to publish and copy the generated https://....netlify.app URL.
+6. Open that HTTPS URL on each phone in Chrome, then choose Install app from the browser menu (or use the Install button in the app).
+
+Important: this is a static PWA. Each phone stores its own local data. It does NOT yet synchronize family data between phones. Do not treat it as cloud-shared storage. Back up data regularly.
